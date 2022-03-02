@@ -92,7 +92,7 @@ def play_game():
 
         print(f"{game_board[0]} | {game_board[1]} | {game_board[2]}\n{game_board[3]} | {game_board[4]} | {game_board[5]}\n{game_board[6]} | {game_board[7]} | {game_board[8]}")
 
-        position = int(input("\nChoose a postion from 1-9? ")) - 1
+        position = int(input("\nChoose a position from 1-9? ")) - 1
         print()
 
         if not(isPositionAvailable(position)):
