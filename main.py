@@ -114,3 +114,5 @@ def play_game():
         print(f"Winner is {winner}!!!")
 
 play_game()
+
+input()
